@@ -4,3 +4,10 @@
     height: auto;
     width: 300px;
 }
+
+/* Let's now distort the second image */
+/* Element with BOTH avatar and distorted classes will have width of 200px with the height twice as big as its new width */
+.avatar.distorted {
+    height: 400px;
+    width: 200px;
+}
