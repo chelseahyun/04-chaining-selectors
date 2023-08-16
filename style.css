@@ -1,0 +1,6 @@
+/* Chaining selectors to alter image proportions and sizes */
+/* Element with BOTH avatar and proportioned classes will have width of 300px with the height adjusted to match the original proportion */
+.avatar.proportioned {
+    height: auto;
+    width: 300px;
+}
